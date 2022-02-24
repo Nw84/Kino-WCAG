@@ -1,0 +1,54 @@
+/* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
+Author: Mats Hemå */
+
+footer {
+    background-color: $third-color;
+    color: $secondary-color;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+    h2 {
+        font-size: large;
+    }
+
+    .footer-content {
+        display: grid;
+        gap: 80px;
+        grid-template-columns: 0.7fr 0.7fr 0.7fr 1.5fr;
+        margin-left: 80px;
+    }
+
+    .footer-information {
+        width: 180px;
+    }
+
+    .footer-contact {
+        width: 140px;
+    }
+
+    /* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
+    Author: Marta Anna Todorovic */
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        float: left;
+        padding: 0;
+    }
+
+    .icon {
+        a {
+        color: $fifth-color;
+        text-decoration: none;
+        font-size: 2.2rem;
+        margin-right: 1rem;
+        }
+
+        i {
+            opacity: 0.6;
+            &:hover {
+                color: $fourth-color;
+                opacity: 1;
+            }
+        }
+    }
+}

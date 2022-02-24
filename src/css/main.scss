@@ -1,0 +1,22 @@
+@import 'sections/_variables';
+@import 'sections/_footer';
+@import 'sections/_nav';
+@import 'sections/_logo';
+@import 'sections/_aboutus';
+@import 'sections/_hero';
+@import 'sections/_importantInfo';
+@import 'sections/_movies';
+@import 'sections/_movie';
+@import 'sections/_404.scss';
+@import 'sections/_index.scss';
+
+html {
+    height: 100vh;
+    font-family: $font-choice;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: $fifth-color;
+}

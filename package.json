@@ -1,0 +1,38 @@
+{
+  "name": "kino-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node .",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "build": "node-sass --watch src/css/main.scss public/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nw84/Kino-WCAG.git"
+  },
+  "author": "Tobias <https://github.com/nw84",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nw84/Kino-WCAG.gitissues"
+  },
+  "homepage": "https://github.com/Nw84/Kino-WCAG.git#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "marked": "^4.0.10",
+    "moment": "^2.29.1",
+    "node-fetch": "^3.2.0",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.0",
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}

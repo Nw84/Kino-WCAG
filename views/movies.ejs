@@ -1,0 +1,19 @@
+<section class="movie-content">
+
+    <h1 class="current-title"> Aktuella filmer </h1>
+
+    <ul class="current-movies">
+
+        <% movies.forEach(function(movie) { %>
+        <li class="current-movie">
+            <a href="/movies/<%=  movie.id %>">
+                <%= movie.attributes.title%>
+            </a>
+        </li>
+        <% }); %>  
+
+        
+        
+    </ul>
+</section>
+

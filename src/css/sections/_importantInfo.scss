@@ -1,0 +1,34 @@
+.important-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $third-color;
+    height: 35px;
+    font-size: 1.2rem;
+}
+
+.important-info-text {
+    color: $secondary-color;
+    animation: blink 2s ease-out;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    } 
+    20% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

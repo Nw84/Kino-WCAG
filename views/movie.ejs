@@ -1,0 +1,47 @@
+
+<div class="movie">
+  
+  <h1 class="movie-title"><%= movie.attributes.title %></h1>
+
+  <div class="intro">
+    <%- markdown(movie.attributes.intro) %>
+  </div>
+
+  <div class="movie-rating"></div>
+
+  <% if(movie.attributes.image.url.length > 0) { %>
+    <img class="movie-img" src="<%= movie.attributes.image.url %>"  alt="Movie poster for <%= movie.attributes.title %>"></img>
+  <% } %>
+
+  <div class="submit-review">
+    <form id="frm" class="add-review">
+      <textarea id="addComment" class="review review-text" placeholder="Add your review here"></textarea>
+      <input type="hidden" value="<%= movie.id %>">
+      <select id="rate" class="review">
+        <option value="" hidden>Your rating here</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <input id="addName" class="review" placeholder="Your name here">
+      <input id="addBtn" class="menu-btn button-review" type="submit">
+    </form>
+  </div>
+
+  <div class="review-container"></div>
+  <p class="reviewTotal"></p>
+  <button class="menu-btn previousReviewButton">Previous review page</button>
+  <button class="menu-btn nextReviewButton">Next review page</button>
+  <ul class="movie-review"></ul>
+
+  <div class="screening-container">
+    <p>Kommande visningar</p>
+    <ul class="screenings-for-each-movie"></ul>
+  </div>
+
+</div>
+
+<script type="module" src="/script/moviePage.js"></script>

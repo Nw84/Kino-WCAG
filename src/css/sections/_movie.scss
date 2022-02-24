@@ -1,0 +1,71 @@
+.movie {
+    margin: auto;
+    padding: 20px;
+    background-color: $secondary-color;
+    width: 70vw;
+    min-height: calc(100vh - 310px);
+
+    .movie-title {
+        color: $third-color;
+        padding: 20px 0px 0px 20px;
+        margin: 0;
+    }
+    .intro {
+    padding: 0px 20px;
+    }
+
+    .movie-img {
+        width: 50%;
+        box-shadow: 0px 0px 15px 1px black;
+        height: 400px;
+        width: auto;
+        margin: 20px;
+        float: none;
+    }
+    .submit-review {
+        margin-top: 3rem;
+        padding: 20px;
+
+        .add-review {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-family: $font-choice;
+            padding: 10px 30px;
+            border: 2px solid $secondary-color;
+            border-radius: 6px;
+            box-shadow: 0px 0px 10px;
+            text-align: center;
+            width: 25rem;
+            
+            .review {
+                margin: 1rem;
+                font-family: $font-choice;
+                padding: 5px;
+                border-radius: 6px;
+                box-shadow: 0px 0px 10px;
+                box-sizing: border-box;   
+
+                
+            }
+            
+            .review-text {
+                height: 4rem;
+            }
+            
+            .button-review{
+                box-sizing: border-box;
+                width: max-content;
+                margin: 0 auto;
+            }
+        }
+
+    }
+    .review-container {
+        margin-top: 3rem;
+        
+        .movie-review {
+            margin-top: 1rem;
+        }
+    }
+}

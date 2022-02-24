@@ -1,0 +1,12 @@
+.error-container {
+    min-height: calc(100vh - 292px);
+    
+    .error-msg {
+        margin: auto;
+        text-align: center;
+        color: $secondary-color;
+        font-size: 2rem;
+        margin: 20px;
+        text-decoration: underline;
+    }
+}

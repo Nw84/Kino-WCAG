@@ -1,0 +1,79 @@
+/* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
+Author: Mats Hemå &  Marta Anna Todorovic */
+
+.about-us-nav {
+    background-color: $third-color;
+
+    .about-us-menu {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        justify-content: space-between;
+        padding: 0;
+        margin: auto;
+        width: 60%;
+
+        li {
+            list-style-type: none;
+
+            .menu-text {
+                color: $secondary-color;
+                font-family: $font-choice;
+                text-decoration: none;
+
+                &:hover {
+                    color: $fourth-color;
+                }
+            }
+
+            .menu-text:focus {
+                color: $fourth-color;
+            }
+
+            .menu-active {
+                color: $fourth-color;
+            }
+        }
+    }
+}
+
+.about-us-space {
+    font-family: $font-choice;
+    padding: 40px 0px 40px 0px;
+    min-height: calc(100vh - 400px);
+    background-color: $secondary-color;
+    width: 80vw;
+    margin: auto;
+
+    .about-us-history {
+        margin: auto;
+        width: 70%;
+    
+        img {
+            box-shadow: 0px 0px 15px 1px black;
+            float: none;
+            margin: 0;
+            width: 600px;
+        }
+    }
+
+    .about-us-accessibility {
+        margin: auto;
+        width: 70%;
+    }
+
+    .about-us-policy {
+        margin: auto;
+        width: 70%;
+    }
+
+    .about-us-faq {
+        margin: auto;
+        width: 70%;
+    }
+
+    .about-us-hide {
+        display: none;
+    }
+}

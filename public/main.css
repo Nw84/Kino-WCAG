@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
+Author: Marta Anna Todorovic */
+/* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
+Author: Mats Hemå */
+footer {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  /* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
+    Author: Marta Anna Todorovic */ }
+  footer h2 {
+    font-size: large; }
+  footer .footer-content {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr 1.5fr;
+    margin-left: 80px; }
+  footer .footer-information {
+    width: 180px; }
+  footer .footer-contact {
+    width: 140px; }
+  footer .social-media {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    float: left;
+    padding: 0; }
+  footer .icon a {
+    color: rgba(211, 211, 211, 0.801);
+    text-decoration: none;
+    font-size: 2.2rem;
+    margin-right: 1rem; }
+  footer .icon i {
+    opacity: 0.6; }
+    footer .icon i:hover {
+      color: #d4af37;
+      opacity: 1; }
+
+header {
+  background-color: #BB0000; }
+  header .main-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0 10vw 0 15vw;
+    height: 100px;
+    /* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
+    Author: Marta Anna Todorovic */ }
+    header .main-menu a:hover {
+      color: #d4af37;
+      box-shadow: 0px 0px 15px 1px #000; }
+    header .main-menu li {
+      list-style-type: none; }
+
+.menu-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #BB0000;
+  padding: 10px 30px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); }
+
+.menu-btn-active {
+  border-color: #d4af37; }
+
+.disabledButton {
+  background-color: gray; }
+
+#search {
+  border-radius: 50%;
+  padding: 10px 10px 10px 14px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  /* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
+    Author: Marta Anna Todorovic */ }
+  #search:hover {
+    box-shadow: 0px 0px 15px 1px #000; }
+
+/* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
+Author: Mats Hemå */
+img {
+  display: flex;
+  float: left;
+  margin: 10px 20px 0 10px;
+  width: 90px; }
+
+/* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
+Author: Mats Hemå &  Marta Anna Todorovic */
+.about-us-nav {
+  background-color: #000; }
+  .about-us-nav .about-us-menu {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: space-between;
+    padding: 0;
+    margin: auto;
+    width: 60%; }
+    .about-us-nav .about-us-menu li {
+      list-style-type: none; }
+      .about-us-nav .about-us-menu li .menu-text {
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none; }
+        .about-us-nav .about-us-menu li .menu-text:hover {
+          color: #d4af37; }
+      .about-us-nav .about-us-menu li .menu-text:focus {
+        color: #d4af37; }
+      .about-us-nav .about-us-menu li .menu-active {
+        color: #d4af37; }
+
+.about-us-space {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 0px 40px 0px;
+  min-height: calc(100vh - 400px);
+  background-color: #fff;
+  width: 80vw;
+  margin: auto; }
+  .about-us-space .about-us-history {
+    margin: auto;
+    width: 70%; }
+    .about-us-space .about-us-history img {
+      box-shadow: 0px 0px 15px 1px black;
+      float: none;
+      margin: 0;
+      width: 600px; }
+  .about-us-space .about-us-accessibility {
+    margin: auto;
+    width: 70%; }
+  .about-us-space .about-us-policy {
+    margin: auto;
+    width: 70%; }
+  .about-us-space .about-us-faq {
+    margin: auto;
+    width: 70%; }
+  .about-us-space .about-us-hide {
+    display: none; }
+
+.hero-image {
+  background-image: url("/img/hero.png");
+  height: 35vw;
+  background-size: cover; }
+
+.important-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  height: 35px;
+  font-size: 1.2rem; }
+
+.important-info-text {
+  color: #fff;
+  animation: blink 2s ease-out; }
+
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  20% {
+    opacity: 1; }
+  40% {
+    opacity: 0; }
+  60% {
+    opacity: 1; }
+  80% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.movie-content {
+  margin: auto;
+  padding: 20px;
+  width: 80vw;
+  background-color: #fff;
+  min-height: calc(100vh - 291px); }
+  .movie-content .current-title {
+    font-size: 2rem;
+    color: #000;
+    margin: 0;
+    padding: 20px 0px 20px 20px; }
+  .movie-content ul {
+    padding: 0px 0px 20px 20px;
+    margin: 0; }
+  .movie-content .current-movie {
+    list-style-type: none;
+    padding: 5px 0px; }
+    .movie-content .current-movie a {
+      color: #000;
+      text-decoration: none;
+      font-size: 1.2rem; }
+    .movie-content .current-movie a:hover {
+      font-size: 1.3rem;
+      font-weight: bold; }
+
+.movie {
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  width: 70vw;
+  min-height: calc(100vh - 310px); }
+  .movie .movie-title {
+    color: #000;
+    padding: 20px 0px 0px 20px;
+    margin: 0; }
+  .movie .intro {
+    padding: 0px 20px; }
+  .movie .movie-img {
+    width: 50%;
+    box-shadow: 0px 0px 15px 1px black;
+    height: 400px;
+    width: auto;
+    margin: 20px;
+    float: none; }
+  .movie .submit-review {
+    margin-top: 3rem;
+    padding: 20px; }
+    .movie .submit-review .add-review {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 10px 30px;
+      border: 2px solid #fff;
+      border-radius: 6px;
+      box-shadow: 0px 0px 10px;
+      text-align: center;
+      width: 25rem; }
+      .movie .submit-review .add-review .review {
+        margin: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+        border-radius: 6px;
+        box-shadow: 0px 0px 10px;
+        box-sizing: border-box; }
+      .movie .submit-review .add-review .review-text {
+        height: 4rem; }
+      .movie .submit-review .add-review .button-review {
+        box-sizing: border-box;
+        width: max-content;
+        margin: 0 auto; }
+  .movie .review-container {
+    margin-top: 3rem; }
+    .movie .review-container .movie-review {
+      margin-top: 1rem; }
+
+.error-container {
+  min-height: calc(100vh - 292px); }
+  .error-container .error-msg {
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin: 20px;
+    text-decoration: underline; }
+
+.movie-container {
+  min-height: calc(100vh - 670px);
+  width: 80vw;
+  background-color: #fff;
+  margin: auto; }
+
+.current-movie-title {
+  margin: 0;
+  padding: 40px 20px; }
+
+html {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif; }
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: rgba(211, 211, 211, 0.801); }
